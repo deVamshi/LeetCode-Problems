@@ -5,7 +5,7 @@ int main(void) {
      	int fact_arr[] = { 1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880 };
 	printf("Enter the last Number: ");
 	scanf("%i", &n);
-	for(int i = 1; i <= n; i++){
+	for(i = 1; i <= n; i++){
 		sum = 0;
 		i_copy = i;
 		while(i_copy){
