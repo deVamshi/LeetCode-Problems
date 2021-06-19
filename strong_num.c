@@ -6,13 +6,13 @@ int main(void) {
 	printf("Enter the last Number: ");
 	scanf("%i", &n);
 	for(int i = 1; i <= n; i++){
-	        sum = 0;
-			i_copy = i;
-			while(i_copy){
-				sum += fact_arr[i_copy % 10];
-				i_copy /= 10;
-			}
-			if(sum == i)printf("%i\n", i);
+		sum = 0;
+		i_copy = i;
+		while(i_copy){
+			sum += fact_arr[i_copy % 10];
+			i_copy /= 10;
+		}
+		if(sum == i)printf("%i\n", i);
 	}
 	return 0;
 }
